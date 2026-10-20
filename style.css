@@ -1,6 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Piazzolla:ital,wght@0,700;1,400&family=Ubuntu:wght@400;700&display=swap');
 
-/* Midenismos perithoriwn kai afairesi bullets */
 * {
     margin: 0;
     padding: 0;
@@ -14,29 +13,9 @@ html {
 
 body {
     font-family: 'Segoe UI', system-ui, -apple-system, sans-serif;
-    background-color: #1a0b2e;
+    background-color: #180d2b;
     color: #ffffff;
-    animation: fadeIn 1s ease-in;
-}
-
-@keyframes fadeIn {
-    from {
-        opacity: 0;
-    }
-    to {
-        opacity: 1;
-    }
-}
-
-@keyframes slideUp {
-    from {
-        opacity: 0;
-        transform: translateY(25px);
-    }
-    to {
-        opacity: 1;
-        transform: translateY(0);
-    }
+    overflow-x: hidden;
 }
 
 /* NAVBAR */
@@ -55,14 +34,9 @@ body {
 .logo svg {
     display: block;
     filter: drop-shadow(0 2px 6px rgba(255, 230, 109, 0.5));
-    transition: transform 0.3s ease;
 }
 
-.logo svg:hover {
-    transform: scale(1.08) rotate(-3deg);
-}
-
-/* 1o SECTION: Kokkino - Portokali Gradient */
+/* 1o SECTION (KOKKINO - PORTOKALI GRADIENT) */
 .firstsection {
     min-height: 480px;
     background: linear-gradient(135deg, #e63946 0%, #f77f00 50%, #fcbf49 100%);
@@ -86,7 +60,6 @@ body {
     text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.35);
     margin-bottom: 12px;
     letter-spacing: 1px;
-    animation: slideUp 0.6s ease-out;
 }
 
 .text-eva {
@@ -96,7 +69,6 @@ body {
     color: #ffe66d;
     text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.3);
     margin-bottom: 15px;
-    animation: slideUp 0.8s ease-out;
 }
 
 .text-degree {
@@ -106,10 +78,9 @@ body {
     line-height: 1.4;
     color: #ffffff;
     text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.3);
-    animation: slideUp 1.1s ease-out;
 }
 
-/* 2o SECTION: Mwb - Violeti Gradient */
+/* 2o SECTION (MWB - VIOLETI GRADIENT) */
 .secondsection {
     min-height: 520px;
     background: linear-gradient(135deg, #7209b7 0%, #3a0ca3 50%, #4361ee 100%);
