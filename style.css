@@ -13,7 +13,7 @@ html {
 
 body {
     font-family: 'Segoe UI', system-ui, -apple-system, sans-serif;
-    background-color: #180d2b;
+    background-color: hsl(262, 54%, 11%);
     color: #ffffff;
     overflow-x: hidden;
 }
@@ -119,9 +119,9 @@ body {
 /* FOOTER */
 footer {
     text-align: center;
-    background: #0f051d;
+    background: hsl(265, 71%, 7%);
     padding: 30px 15px;
-    border-top: 1px solid rgba(255, 255, 255, 0.08);
+    border-top: 1px solid hsl(262, 54%, 11%);
 }
 
 .text-footer {
